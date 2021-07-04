@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 200px;
+}
+.bg-exp-img{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+}
+.dream-big-img{
+    background-image:url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+    width: 50%;
+    padding:5%;
+}
+.half-width img{
+    width: 90%;
+}
+.half-width a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(lightsalmon,tomato);
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    color: dimgray;
+}
+.color-orange{
+    color: orange;
+}
+h2{
+    font-size: 40px;
+}
