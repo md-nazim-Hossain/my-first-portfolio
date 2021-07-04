@@ -1,11 +1,13 @@
 body{
     margin:0px;
-    padding: 0px;
     font-family: 'Open Sans', sans-serif;
+}
+section{
+    margin-bottom: 150px;
+    height: 500px;
 }
 .display-flex{
     display: flex;
-    margin-bottom: 200px;
 }
 .bg-exp-img{
     background-image:url(images/top-banner.png) ;
@@ -17,11 +19,12 @@ body{
     background-position: right;
 }
 .half-width{
-    width: 50%;
-    padding:5%;
+    width: 40%;
+    margin-left: 5%;
+    padding-left:2%;
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
 }
 .half-width a{
     text-decoration: none;
@@ -46,4 +49,28 @@ p{
 }
 h2{
     font-size: 40px;
+}
+.experiences-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-section .half-width{
+    box-shadow: 10px 10px 40px gray;
+}
+#fullStack{
+    padding-top: 0px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,lightsalmon);
+    border-image-slice: 1;
+}
+#BabyDev{
+    padding-top: 0px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
 }
